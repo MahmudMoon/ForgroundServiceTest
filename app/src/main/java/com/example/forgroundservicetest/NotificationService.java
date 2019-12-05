@@ -71,7 +71,8 @@ public class NotificationService extends Service {
                 .addAction(R.drawable.ic_skip_previous_black_24dp,"previous",null)
                 .addAction(R.drawable.ic_play_arrow_black_24dp,"play",null)
                 .addAction(R.drawable.ic_skip_next_black_24dp,"next",null)
-                .setStyle(new androidx.media.app.NotificationCompat.MediaStyle());
+                .setStyle(new androidx.media.app.NotificationCompat.MediaStyle())
+                .setColorized(true);
         return builder;
     }
 
